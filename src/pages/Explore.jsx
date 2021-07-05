@@ -1,13 +1,12 @@
 import React from 'react';
 import Header from '../components/Header';
 
-const Meals = () => {
+const Explore = () => {
   return (
     <div className="primary-container">
-      <Header title="Comidas" fullHeader />
-      <h1>meals</h1>
+      <Header title="Explorar" fullHeader={ false } />
     </div>
   );
 };
 
-export default Meals;
+export default Explore;
