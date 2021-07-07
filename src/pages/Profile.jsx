@@ -1,9 +1,15 @@
 import React from 'react';
+
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Profile = () => {
   return (
-    <Header title="Perfil" fullHeader={ false } />
+    <div className="primary-container inside">
+      <Header title="Perfil" fullHeader={ false } />
+      <h1>perfil</h1>
+      <Footer />
+    </div>
   );
 };
 

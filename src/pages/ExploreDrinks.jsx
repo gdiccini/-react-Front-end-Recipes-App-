@@ -1,9 +1,15 @@
 import React from 'react';
+
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const ExploreDrinks = () => {
   return (
-    <Header title="Explorar Bebidas" fullHeader={ false } />
+    <div className="primary-container inside">
+      <Header title="Explorar Bebidas" fullHeader={ false } />
+      <h1>explorar Bebidas</h1>
+      <Footer />
+    </div>
   );
 };
 
